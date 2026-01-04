@@ -1,0 +1,16 @@
+.ontology-page { padding: 20px; max-width: 1300px; margin: 0 auto; }
+.ontology-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; }
+.ontology-header .ontology-actions { display:flex; gap:12px; align-items:center; }
+.open-new, .open-full { color:#6a2; background:transparent; border:1px solid rgba(0,0,0,0.06); padding:6px 10px; border-radius:6px; text-decoration:none; cursor:pointer; }
+.open-full { background:#e9f7f5; }
+.ragflow-embed { width:100%; background:#fff; border-radius:8px; box-shadow:0 6px 18px rgba(10,30,60,0.04); overflow:hidden; }
+.ragflow-embed iframe { width:100%; height:78vh; border:0; display:block; }
+.embed-fallback { padding:18px; }
+.gallery { display:flex; flex-wrap:wrap; gap:12px; }
+.tile { background:#fff; border-radius:8px; box-shadow:0 1px 6px rgba(0,0,0,0.06); padding:8px; text-align:center; }
+.tile-img img { width:100%; height:100%; object-fit:cover; border-radius:6px; }
+.tile-title { margin-top:6px; font-size:0.95rem; color:#333; }
+
+/* Fullscreen adjustments */
+.ragflow-embed:-webkit-full-screen, .ragflow-embed:-moz-full-screen, .ragflow-embed:fullscreen { width:100%; height:100%; }
+.ragflow-embed:-webkit-full-screen iframe, .ragflow-embed:-moz-full-screen iframe, .ragflow-embed:fullscreen iframe { height:100vh; }
